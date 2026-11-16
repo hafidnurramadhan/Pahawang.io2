@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#073b4c">
+<meta name="description" content="Jelajahi keindahan Pulau Pahawang, Lampung. Temukan paket wisata, snorkeling, island hopping, dan informasi perjalanan.">
+<title>Pahawang Explore – Jelajahi Surga Lampung</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="/style2/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+<style>
+:root{--navy:#073b4c;--deep:#052d3a;--teal:#087e8b;--aqua:#35c6c8;--sand:#f5ead5;--ink:#18343b;--muted:#71858a;--paper:#fff;--line:#e5eeee;--shadow:0 14px 38px rgba(7,59,76,.11)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:'DM Sans',sans-serif;color:var(--ink);background:#fff;line-height:1.6}a{color:inherit;text-decoration:none}button,input,select{font:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--aqua);color:var(--deep);border:0;border-radius:999px;padding:12px 22px;font-weight:700;font-size:14px;cursor:pointer;transition:.25s}.btn:hover{background:#65dddd;transform:translateY(-2px)}.btn-outline{background:transparent;color:white;border:1px solid rgba(255,255,255,.75)}.btn-outline:hover{background:white;color:var(--navy)}.eyebrow{color:var(--teal);font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase}.section-head{max-width:650px;margin-bottom:28px}.section-head h2{font:700 clamp(28px,4vw,40px)/1.2 'Playfair Display',serif;margin:8px 0 10px;color:var(--navy)}.section-head p{color:var(--muted);margin:0;font-size:14px}
+.hero{min-height:680px;color:#fff;position:relative;background:linear-gradient(90deg,rgba(3,36,49,.78),rgba(3,36,49,.24)),linear-gradient(0deg,rgba(3,36,49,.42),transparent 50%),url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=2000&q=85') center/cover}
+nav{height:86px;display:flex;align-items:center;justify-content:space-between;position:relative;z-index:5}.brand{font:700 23px 'Playfair Display',serif;letter-spacing:.2px}.brand span{color:var(--aqua)}nav ul{display:flex;gap:30px;list-style:none;margin:0;padding:0;font-size:13px;font-weight:600}nav ul a{opacity:.9}nav ul a:hover{color:var(--aqua)}.nav-cta{display:flex;align-items:center;gap:12px}.menu-toggle{display:none;background:none;border:0;color:white;font-size:26px;cursor:pointer}
+.hero-content{padding:105px 0 140px;max-width:650px}.hero-content .eyebrow{color:#a8f4ef}.hero h1{font:800 clamp(42px,7vw,70px)/1.06 'Playfair Display',serif;margin:18px 0}.hero p{max-width:500px;color:rgba(255,255,255,.88);font-size:16px;margin:0 0 28px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.hero-note{margin-top:35px;color:rgba(255,255,255,.8);font-size:12px;letter-spacing:.4px}
+.quick-info{position:relative;margin-top:-54px;z-index:2}.info-panel{display:grid;grid-template-columns:repeat(3,1fr) auto;gap:15px;align-items:center;background:white;border-radius:16px;padding:22px 26px;box-shadow:var(--shadow)}.info-item{display:flex;align-items:center;gap:12px}.info-icon{width:42px;height:42px;display:grid;place-items:center;background:#e5f8f6;border-radius:12px;font-size:20px}.info-item small{display:block;color:var(--muted);font-size:11px}.info-item b{font-size:14px;color:var(--navy)}
+section{padding:82px 0}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.intro-photo{height:390px;border-radius:18px;overflow:hidden;position:relative}.intro-photo img{width:100%;height:100%;object-fit:cover}.photo-tag{position:absolute;left:18px;bottom:18px;background:white;padding:10px 15px;border-radius:10px;font-size:12px;font-weight:700;color:var(--navy)}.intro-copy p{font-size:14px;color:var(--muted)}.stats{display:flex;gap:30px;margin-top:26px}.stat b{display:block;font:700 25px 'Playfair Display',serif;color:var(--teal)}.stat span{font-size:11px;color:var(--muted)}
+.destinations{background:#f4fbfa}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:white;border-radius:15px;overflow:hidden;box-shadow:0 8px 25px rgba(7,59,76,.07);transition:.25s}.card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.card-img{height:210px;overflow:hidden}.card-img img{width:100%;height:100%;object-fit:cover;transition:.5s}.card:hover .card-img img{transform:scale(1.05)}.card-body{padding:19px}.card-body h3{font:700 20px 'Playfair Display',serif;margin:0 0 6px;color:var(--navy)}.card-body p{font-size:13px;color:var(--muted);margin:0 0 14px}.card-meta{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:13px;font-size:12px;color:var(--teal);font-weight:700}
+.features{background:var(--navy);color:white}.features .section-head h2{color:white}.features .section-head p{color:#b8d1d4}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}.feature{padding:22px 8px}.feature-icon{font-size:28px;margin-bottom:12px}.feature h3{font:700 19px 'Playfair Display',serif;margin:0 0 7px}.feature p{font-size:13px;color:#b8d1d4;margin:0}
+.package-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:35px;align-items:center}.package-photo{height:390px;border-radius:18px;overflow:hidden}.package-photo img{width:100%;height:100%;object-fit:cover}.package-copy h2{font:700 36px/1.15 'Playfair Display',serif;color:var(--navy);margin:8px 0 12px}.package-copy p{font-size:14px;color:var(--muted)}.package-list{padding:0;list-style:none;margin:20px 0}.package-list li{padding:7px 0;font-size:13px}.package-list li:before{content:'✓';color:var(--teal);font-weight:700;margin-right:10px}.price{font-size:25px;font-weight:700;color:var(--teal);margin:12px 0}.price small{font-size:12px;color:var(--muted);font-weight:400}
+.gallery{background:var(--sand)}.gallery-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;grid-template-rows:175px 175px;gap:13px}.gallery-grid img{width:100%;height:100%;object-fit:cover;border-radius:12px}.gallery-grid img:first-child{grid-row:span 2}
+.tips-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.tip{border:1px solid var(--line);border-radius:14px;padding:22px}.tip span{font-size:24px}.tip h3{font:700 18px 'Playfair Display',serif;color:var(--navy);margin:9px 0 5px}.tip p{font-size:13px;color:var(--muted);margin:0}
+
+@media(max-width:800px){nav ul{display:none;position:absolute;top:75px;left:0;right:0;background:var(--deep);padding:20px;border-radius:12px;flex-direction:column;gap:16px}nav ul.open{display:flex}.menu-toggle{display:block}.nav-cta .btn{display:none}.hero{min-height:620px}.hero-content{padding:95px 0 125px}.info-panel{grid-template-columns:1fr 1fr}.info-panel>.btn{grid-column:span 2}.intro-grid,.package-grid,.booking-inner{grid-template-columns:1fr}.intro-photo{height:310px}.cards{grid-template-columns:1fr 1fr}.gallery-grid{grid-template-rows:140px 140px}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:span 2}}
+@media(max-width:540px){.wrap{width:min(100% - 30px,1120px)}section{padding:60px 0}.hero{min-height:600px}.hero-content{padding:85px 0 110px}.hero p{font-size:14px}.info-panel{grid-template-columns:1fr;padding:18px}.info-panel>.btn{grid-column:auto}.cards,.feature-grid,.tips-grid{grid-template-columns:1fr}.card-img{height:190px}.stats{gap:20px}.package-photo{height:270px}.package-copy h2,.booking h2{font-size:30px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:180px 120px 120px}.gallery-grid img:first-child{grid-row:span 2}.gallery-grid img:last-child{grid-column:span 2}.footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}}
+.booking{background: url("bg-pantai.jpg");color:white; background-repeat: no-repeat; background-size: cover;height: 80vh;}
+.booking-inner{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.booking h2{font:700 38px/1.15 'Playfair Display',serif;margin:8px 0 12px}
+.booking p{color:#d0e7e7;font-size:14px}.booking-form{background:white;padding:25px;border-radius:16px;color:var(--ink);display:grid;gap:12px}
+.booking-form label{font-size:12px;font-weight:700;color:var(--navy)}
+.booking-form input,.booking-form select{width:100%;padding:12px;border:1px solid var(--line);
+    border-radius:8px;margin-top:5px;font-size:13px}
+.booking-form .btn{width:100%;margin-top:5px}
+
+.text-border{
+    background-color: #2c272e87;
+    padding: 10px;
+    opacity: blur;
+    border-radius: 10px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2c272e;
+}
+
+footer .icons,
+footer .menu {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+}
+
+footer .icons li,
+footer .menu li {
+    list-style: none;
+}
+
+footer .icons li a {
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .icons li a:hover {
+    transform: translateY(-10px);
+    color: #000;
+}
+
+footer .menu li a {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: 0.5s;
+}
+
+footer .menu li a:hover {
+    opacity: 1;
+    color: #000;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+footer .waves {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+footer .wave {
+    position: absolute;
+    top: -100;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("wave.png");
+    background-size:  1000px 100px;
+}
+
+footer .wave#wave1 {
+    z-index: 4;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 7s linear infinite;
+}
+
+footer .wave#wave2 {
+    z-index: 4;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 7s linear infinite;
+}
+
+@keyframes animateWave {
+    0% {
+        background-position-x: 1000px;
+    }
+    100% {
+        background-position-x: 0;
+    }
+}
+
+@keyframes animateWave2 {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+/**/
+
+footer .wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100px;
+
+    background-image: url("wave.png");
+    background-repeat: repeat-x;
+    background-size: 1000px 100px;
+}
+
+footer .wave#wave1 {
+    opacity: 1;
+    animation: animateWave 15s linear infinite;
+}
+
+footer .wave#wave2 {
+    opacity: 0.5;
+    animation: animateWave2 12s linear infinite;
+}
+
+footer .wave#wave3 {
+    opacity: 0.2;
+    animation: animateWave 18s linear infinite;
+}
+
+footer .wave#wave4 {
+    opacity: 0.7;
+    animation: animateWave2 20s linear infinite;
+}
+</style>
+</head>
+<body>
+<header class="hero" id="home">
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#home">PAHAWANG<span>.</span></a>
+      <ul id="navMenu">
+        <li><a href="#home">Beranda</a></li><li><a href="#tentang">Tentang</a></li><li><a href="#destinasi">Destinasi</a></li><li><a href="#paket">Paket Wisata</a></li><li><a href="#tips">Info Wisata</a></li>
+      </ul>
+      <div class="nav-cta"><a class="btn" href="#booking">Rencanakan perjalanan</a><button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button></div>
+    </nav>
+    <div class="hero-content" data-aos="fade-up">
+      <div class="eyebrow">Permata bahari Lampung</div>
+      <h1>Temukan surga tropis di Pulau Pahawang</h1>
+      <p>Air laut sebening kristal, pasir putih, dan dunia bawah laut yang menawan. Saatnya menikmati pesona Pahawang, Lampung.</p>
+      <div class="hero-actions"><a class="btn" href="#paket">Jelajahi paket wisata ↗</a><a class="btn btn-outline" href="#tentang">Kenali Pahawang</a></div>
+      <div class="hero-note">PESAWARAN · LAMPUNG · INDONESIA</div>
+    </div>
+  </div>
+</header>
+
+<div class="quick-info"><div class="wrap"><div class="info-panel" data-aos="fade-up">
+  <div class="info-item"><div class="info-icon"><ion-icon name="pin-outline"></ion-icon></div><div><small>Lokasi</small><b>Kabupaten Pesawaran, Lampung</b></div></div>
+  <div class="info-item"><div class="info-icon"><ion-icon name="boat"></ion-icon></div><div><small>Akses utama</small><b>Dermaga Ketapang</b></div></div>
+  <div class="info-item"><div class="info-icon"><ion-icon name="heart-circle"></ion-icon></div><div><small>Aktivitas favorit</small><b>Snorkeling & island hopping</b></div></div>
+  <a class="btn" href="#booking">Mulai rencanakan →</a>
+</div></div></div>
+
+<section id="tentang"><div class="wrap intro-grid">
+  <div class="intro-photo" data-aos="fade-right"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1100&q=85" alt="Pantai tropis dengan air laut biru"><div class="photo-tag">Keindahan alam Pulau Pahawang</div></div>
+  <div class="intro-copy" data-aos="fade-left"><div class="eyebrow">Tentang Pulau Pahawang</div><div class="section-head"><h2>Tempat terbaik untuk jeda dari rutinitas</h2><p>Pulau Pahawang berada di Kecamatan Marga Punduh, Kabupaten Pesawaran, Provinsi Lampung. Kawasan ini dikenal dengan pantai tropis, perairan jernih, serta pengalaman wisata bahari yang cocok dinikmati bersama keluarga maupun teman.</p></div><p>Jelajahi pulau-pulau kecil di sekitarnya, nikmati suasana pantai, atau melihat keindahan bawah laut dengan tetap menjaga kelestarian lingkungan.</p><div class="stats"><div class="stat"><b>Bahari</b><span>Wisata laut</span></div><div class="stat"><b>Alami</b><span>Pemandangan tropis</span></div><div class="stat"><b>Seru</b><span>Island hopping</span></div></div></div>
+</div></section>
+
+<section class="destinations" id="destinasi"><div class="wrap">
+  <div class="section-head" data-aos="fade-up"><div class="eyebrow">Jelajahi sekitar</div><h2>Spot menarik di kawasan Pahawang</h2><p>Isi perjalananmu dengan pemandangan pantai, laut biru, dan pengalaman bahari yang berkesan.</p></div>
+  <div class="cards">
+    <article class="card" data-aos="fade-up"><div class="card-img"><img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80" alt="Laut biru dan ombak"></div><div class="card-body"><h3>Pulau Pahawang Besar</h3><p>Nikmati suasana pulau, pantai, dan panorama laut yang menenangkan.</p><div class="card-meta"><span><i class="fa-solid fa-umbrella-beach"></i> Wisata pulau</span><span>Jelajahi ↗</span></div></div></article>
+    <article class="card" data-aos="fade-up" data-aos-delay="100"><div class="card-img"><img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=900&q=80" alt="Aktivitas snorkeling di laut"></div><div class="card-body"><h3>Pulau Pahawang Kecil</h3><p>Spot singgah untuk menikmati pemandangan laut dan suasana pantai.</p><div class="card-meta"><span><i class="fa-solid fa-water"></i> Island hopping</span><span>Jelajahi ↗</span></div></div></article>
+    <article class="card" data-aos="fade-up" data-aos-delay="200"><div class="card-img"><img src="https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=900&q=80" alt="Terumbu karang bawah laut"></div><div class="card-body"><h3>Spot Snorkeling</h3><p>Amati kehidupan bawah laut dari area yang aman bersama pemandu.</p><div class="card-meta"><span><i class="fa-solid fa-fish-fins"></i> Wisata bahari</span><span>Jelajahi ↗</span></div></div></article>
+  </div>
+</div></section>
+
+<section class="features"><div class="wrap"><div class="section-head" data-aos="fade-up"><div class="eyebrow" style="color:#8ce9e2">Pengalaman Pahawang</div><h2>Lebih dari sekadar liburan pantai</h2><p>Beragam aktivitas untuk membuat perjalananmu semakin berkesan.</p></div><div class="feature-grid">
+  <div class="feature" data-aos="fade-up"><div class="feature-icon"><ion-icon name="warning-outline"></ion-icon></div><h3>Snorkeling</h3><p>Kenali keindahan bawah laut dengan perlengkapan dan arahan pemandu yang tepat.</p></div>
+  <div class="feature" data-aos="fade-up" data-aos-delay="100"><div class="feature-icon"><ion-icon name="boat-outline"></ion-icon></div><h3>Island Hopping</h3><p>Susuri pulau-pulau sekitar menggunakan perahu wisata bersama rombongan.</p></div>
+  <div class="feature" data-aos="fade-up" data-aos-delay="200"><div class="feature-icon"><ion-icon name="images-outline"></ion-icon></div><h3>Berburu Foto</h3><p>Abadikan momen dengan latar laut biru, pasir putih, dan lanskap tropis.</p></div>
+</div></div></section>
+
+<section id="paket"><div class="wrap package-grid">
+  <div class="package-photo" data-aos="fade-right"><img src="https://images.unsplash.com/photo-1530053969600-caed2596d242?auto=format&fit=crop&w=1100&q=85" alt="Perahu wisata di perairan tropis"></div>
+  <div class="package-copy" data-aos="fade-left"><div class="eyebrow">Rencanakan liburanmu</div><h2>Paket One Day Trip Pahawang</h2><p>Jadikan satu hari penuh petualangan bahari. Susunan perjalanan dan fasilitas dapat disesuaikan dengan operator wisata serta kondisi cuaca.</p><ul class="package-list"><li>Perjalanan perahu dari Dermaga Ketapang</li><li>Eksplorasi beberapa spot pulau</li><li>Kesempatan snorkeling sesuai kondisi laut</li><li>Waktu bersantai dan dokumentasi</li></ul><div class="price">Hubungi operator <small>untuk harga dan ketersediaan terbaru</small></div><a class="btn" href="#booking">Tanyakan paket wisata →</a></div>
+</div></section>
+
+<section class="gallery"><div class="wrap"><div class="section-head"><div class="eyebrow">Galeri pesona</div><h2>Bayangkan harimu di Pahawang</h2><p>Sepotong suasana tropis untuk menginspirasi perjalanan berikutnya.</p></div><div class="gallery-grid">
+  <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1000&q=85" alt="Pantai tropis"><img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=700&q=85" alt="Snorkeling"><img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=700&q=85" alt="Ombak laut"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=85" alt="Pasir pantai"><img src="https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=700&q=85" alt="Terumbu karang">
+</div></div></section>
+
+<section id="tips"><div class="wrap"><div class="section-head"><div class="eyebrow">Sebelum berangkat</div><h2>Tips perjalanan ke Pahawang</h2><p>Persiapkan perjalanan dengan baik agar liburan lebih nyaman dan tetap bertanggung jawab terhadap alam.</p></div><div class="tips-grid">
+  <div class="tip"><span><ion-icon name="airplane"></ion-icon></span><h3>Atur transportasi</h3><p>Pastikan jadwal perahu dan titik keberangkatan dari Dermaga Ketapang melalui operator wisata.</p></div>
+  <div class="tip"><span><ion-icon name="reader"></ion-icon></span><h3>Bawa perlengkapan</h3><p>Siapkan pakaian ganti, pelindung matahari, air minum, dan tas tahan air.</p></div>
+  <div class="tip"><span><ion-icon name="hand-left"></ion-icon></span><h3>Jaga ekosistem laut</h3><p>Jangan menginjak atau mengambil karang, dan bawa kembali sampah ke daratan.</p></div>
+</div></div></section>
+
+<section class="booking" id="booking"><div class="wrap booking-inner"><div class="text-border"><div class="eyebrow" style="color:#9af0e9">Mulai petualanganmu</div><h2>Siap menjelajahi Pulau Pahawang?</h2><p>Isi formulir untuk menyiapkan pertanyaan perjalanan. Pesan ini akan diteruskan ke WhatsApp agar kamu dapat berdiskusi langsung mengenai tanggal, jumlah peserta, dan paket yang tersedia.</p></div>
+<form class="booking-form" id="bookingForm">
+  <label>Nama lengkap<input name="nama" required placeholder="Masukkan nama kamu"></label>
+  <label>Tanggal rencana<input name="tanggal" type="date" required></label>
+  <label>Jumlah peserta<select name="peserta"><option>1–2 orang</option><option>3–5 orang</option><option>6–10 orang</option><option>Lebih dari 10 orang</option></select></label>
+  <label>Pesan tambahan<input name="pesan" placeholder="Contoh: ingin snorkeling"></label>
+  <button class="btn" type="submit">Kirim pertanyaan via WhatsApp ↗</button>
+  <small style="color:#71858a;text-align:center">Formulir ini membuka WhatsApp, bukan melakukan pemesanan otomatis.</small>
+</form></div></section>
+
+<div class="footer">
+  <footer>
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="icons">
+      <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+    </ul>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    <p align="center">@2026 Pahawang Explore || All Rights Reserved</p>
+  </footer>
+</div>
+
+      <!-- animation footer-->
+
+      <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+if(window.AOS) AOS.init({duration:750,once:true,offset:60});
+const menuToggle=document.getElementById('menuToggle');
+const navMenu=document.getElementById('navMenu');
+menuToggle.addEventListener('click',()=>navMenu.classList.toggle('open'));
+navMenu.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>navMenu.classList.remove('open')));
+document.getElementById('bookingForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  const data=new FormData(this);
+  const nama=data.get('nama'),tanggal=data.get('tanggal'),peserta=data.get('peserta'),pesan=data.get('pesan')||'-';
+  const message=`Halo, saya ingin bertanya tentang wisata Pulau Pahawang.%0A Nama: ${encodeURIComponent(nama)}%0A Tanggal: ${encodeURIComponent(tanggal)}%0A Jumlah peserta: ${encodeURIComponent(peserta)}%0A Pesan: ${encodeURIComponent(pesan)}`;
+  // Ganti nomor di bawah dengan nomor WhatsApp operator wisata yang benar (format internasional tanpa +).
+  window.open('https://wa.me/6280000000000?text='+message,'_blank');
+});
+</script>
+</body>
+</html>
